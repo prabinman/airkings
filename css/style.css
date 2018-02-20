@@ -64,7 +64,9 @@ p{
 }
 
 #contact{
-  background:url(../img/image3.png);
+  background:url(../img/contactUs.jpeg) no-repeat;
+  background-size: 100% 100%;
+  height: 100%;
   padding:40px;
   color:#fff;
   border-top:#333 7px solid;
@@ -72,10 +74,16 @@ p{
 }
 
 footer{
-  padding:30px;
+  padding:20px;
+}
+
+footer .col-md-4 .mid-portion{
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
 }
 
 footer .col-md-4 .social-icons{
   text-align: center;
-  /* justify-content: space-between; */
+  vertical-align: middle;
 }
