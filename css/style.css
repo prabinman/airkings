@@ -80,10 +80,15 @@ footer{
 footer .col-md-4 .mid-portion{
   text-align: center;
   vertical-align: middle;
-  line-height: 90px;
+  line-height: 120px;
 }
 
 footer .col-md-4 .social-icons{
   text-align: center;
   vertical-align: middle;
+}
+
+.copyleft{
+  display: inline-block;
+  transform: rotate(180deg);
 }
