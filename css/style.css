@@ -77,10 +77,12 @@ footer{
   padding:20px;
 }
 
-footer .col-md-4 .mid-portion{
-  text-align: center;
+footer .col-md-4 .mid-part{
   vertical-align: middle;
+  text-align: center;
   line-height: 120px;
+  border-right: #333 7px solid;
+  border-left: #333 7px solid;
 }
 
 footer .col-md-4 .social-icons{
