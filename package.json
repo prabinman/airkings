@@ -1,7 +1,12 @@
 {
   "dependencies": {
     "jquery": "^3.3.1",
+    "lodash": "^4.17.5",
     "owl.carousel": "^2.2.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "webpack"
   },
   "name": "airkingsnepalhr",
   "version": "1.0.0",
@@ -12,8 +17,11 @@
   "license": "MIT",
   "devDependencies": {
     "css-loader": "^0.28.10",
+    "express": "^4.16.2",
     "file-loader": "^1.1.9",
+    "html-webpack-plugin": "^2.30.1",
     "style-loader": "^0.20.2",
-    "webpack": "^3.11.0"
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
   }
 }
