@@ -86,11 +86,11 @@ footer{
   border-left: 0; 
 }
 
-.mid-part{
+/* .mid-part{ */
   /* border: 1px dashed rgba(0, 0, 0, 0.8); */
   /* border-top: 0; */
   /* border-bottom: 0; */
-}
+/* } */
 
 .social-icons{
   border: 1px dashed rgba(0, 0, 0, 0.2);
