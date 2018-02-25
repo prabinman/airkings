@@ -9,8 +9,7 @@ module.exports = {
         path: path.resolve(__dirname, 'dist')
     },
     module: {
-        rules: [
-            {
+        rules: [{
                 test: /\.css$/,
                 use: [
                     'style-loader',
@@ -25,9 +24,19 @@ module.exports = {
             }
         ]
     },
-    plugins: [new HtmlwebpackPlugin({
-        filename: 'index.html',
-        template: 'src/index.html',
-        chunks: ['main']
-    })]
+    plugins: [
+        new HtmlwebpackPlugin({
+            filename: 'index.html',
+            template: 'src/index.html',
+            chunks: ['main']
+        }),
+        new HtmlwebpackPlugin({
+            filename: 'airkingsMore.html',
+            template: 'src/airkingsMore.html'
+        }),
+        new HtmlwebpackPlugin({
+            filename: 'knowKings.html',
+            template: 'src/knowKings.html'
+        })
+    ]
 };
