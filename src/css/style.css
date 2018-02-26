@@ -73,11 +73,22 @@ p{
   border-bottom:#333 7px solid;
 }
 
+#selectionProcess{
+  /* background:url(../img/contactUS.jpeg) no-repeat; */
+  /* background-size: cover; */
+  /* height: 60%; */
+  /* padding:40px; */
+  color:#fff;
+  border-top:#333 7px solid;
+  border-bottom:#333 7px solid;
+}
+
+
 footer{
   padding:10px 0 0 5px;
 }
 
-#knowKings footer{
+footer .knowKings{
   padding:10px 0 0 5px;
   position: absolute;
   bottom: 0;
