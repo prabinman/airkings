@@ -27,8 +27,7 @@ module.exports = {
     plugins: [
         new HtmlwebpackPlugin({
             filename: 'index.html',
-            template: 'src/index.html',
-            chunks: ['main']
+            template: 'src/index.html'
         }),
         new HtmlwebpackPlugin({
             filename: 'airkingsMore.html',
