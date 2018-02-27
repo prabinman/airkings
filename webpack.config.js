@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack = require('webpack');
 
 var HtmlwebpackPlugin = require('html-webpack-plugin');
 
@@ -10,6 +11,16 @@ module.exports = {
     },
     module: {
         rules: [{
+                test: /\.scss$/,
+                use: [{
+                    loader: "style-loader" // creates style nodes from JS strings
+                }, {
+                    loader: "css-loader" // translates CSS into CommonJS
+                }, {
+                    loader: "sass-loader" // compile Sass to CSS
+                }]
+            },
+            {
                 test: /\.css$/,
                 use: [
                     'style-loader',
