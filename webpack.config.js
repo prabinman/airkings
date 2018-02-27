@@ -48,5 +48,6 @@ module.exports = {
             filename: 'knowKings.html',
             template: 'src/knowKings.html'
         })
-    ]
+    ],
+    watch: true
 };
