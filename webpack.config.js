@@ -49,5 +49,5 @@ module.exports = {
             template: 'src/knowKings.html'
         })
     ],
-    watch: true
+    // watch: true
 };
