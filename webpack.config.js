@@ -8,7 +8,7 @@ var HandlebarsPlugin = require("handlebars-webpack-plugin");
 module.exports = {
     entry: './src/app.js',
     output: {
-        filename: 'bundle.js',
+        filename: '[name].bundle.js',
         path: path.resolve(__dirname, 'dist')
     },
     module: {
